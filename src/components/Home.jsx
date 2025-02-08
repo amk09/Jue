@@ -49,15 +49,12 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   currently based in Providence, Rhode Island.
                 </p>
                 <a
-                  href="#contact"
-                  className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    handleNavClick("contact");
-                  }}
-                >
-                  Contact Me
-                </a>
+  href="mailto:amk06june@gmail.com?subject=Contact%20Inquiry&body=Hello%20Jue,%20I%20would%20like%20to%20connect."
+  className="btn btn-outline-primary rounded-pill shadow-none mt-2"
+>
+  Contact Me
+</a>
+
               </div>
             </div>
           </div>
