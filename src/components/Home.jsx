@@ -36,7 +36,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     options={{
                       strings: [
                         "I'm <span style='color:rgb(212, 100, 36);'>Jue Han</span>.",
-                        "I'm a Computer Scienctist.",
+                        "I'm a Computer Scientist.",
                         "I'm a Vision Engineer.",
                         "I'm an Artist.",
                       ],
@@ -49,11 +49,11 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   currently based in Providence, Rhode Island.
                 </p>
                 <a
-  href="mailto:amk06june@gmail.com?subject=Contact%20Inquiry&body=Hello%20Jue,%20I%20would%20like%20to%20connect."
-  className="btn btn-outline-primary rounded-pill shadow-none mt-2"
->
-  Contact Me
-</a>
+            href="mailto:amk06june@gmail.com?subject=Contact%20Inquiry&body=Hello%20Jue,%20I%20would%20like%20to%20connect."
+            className="btn btn-outline-primary rounded-pill shadow-none mt-2"
+          >
+            Contact Me
+          </a>
 
               </div>
             </div>
